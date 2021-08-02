@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* HEADER SECTION */
+
+.header-1{
+    width: auto;
+    height: 450px;
+    background-image: url("images/mic_conference.jfif");
+    box-shadow: 0px 10px 6px rgba(0, 0, 0, 0.2);
+}
+ 
+/* NAV BAR */
+
+.nav-bar{
+    height: 80px;
+    display: flex;
+    background-color: rgba(0, 18, 81, 66%);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tec-logo{
+    width: auto;
+    height: 35px;
+    margin-left: 50px;
+}
+
+.events{
+    display: flex;
+    margin-right: 50px;
+    font-size: 24px;
+    font-family: 'Inter';
+    color: #fff;
+}
+
+.fa-angle-down{
+    padding-top: 3px;
+    margin-left: 10px;
+}
+
+/* MAIN TEXT */
+
+.main-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 370px;
+}
+
+.main-text{
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: 'Inter';
+}
+
+.platicas{
+    font-size: 57px;
+    font-weight: 500;
+}
+
+.exatecs{
+    font-size: 103px;
+    font-weight: 700;
+}
+
+/* CARDS SECTION */
+
+.cards-section{
+    display: flex;
+    height: 800px;
+    background-image: url("images/white_bg.jfif");
+    flex-direction: column;
+}
+
+.cards-container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 336px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 336px; /*142*/
+    width: 363px;
+    border-radius: 11px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-image-container{
+    width: 363px;
+    height: 142px;
+}
+
+.card-image-container img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 11px 11px 0 0;
+}
+
+.card-text{
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 11px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.card-text h1{
+    margin-bottom: 5px;
+}
+
+.card-icons{
+    margin: 40px 15px 0 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fa-ellipsis-h{
+    font-size: 20px;
+    color: rgb(0, 18, 81);
+}
+
+.fa-play-circle{
+    font-size: 20px;
+     color: rgb(0, 18, 81);
+}
